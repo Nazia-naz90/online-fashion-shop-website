@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    background-color:white;
+}
+.bottom{
+    font-size:5vmin;
+    font-style: oblique;
+    font-weight:bolder;
+    color:red;
+}
+.obey{
+    font-size:5vmin;
+    font-style: oblique;
+    font-weight:bolder;
+    color: black;
+}
+
+.levis{
+    background-color: red;
+    color:yellow;
+    font-size:5vmin;
+
+
+}
+
