@@ -9,21 +9,24 @@ const NewArival = () => {
             src={"/images/new-arival.jpg"}
             alt="heading"
             width={250}
-            height={80}>
+            height={80}
+            >
 
             </Image>
         </div>
      </header>
      <main className='lg:flex max-w-7xl mx-auto  
      justify-center items-center lg:gap-x-10 
-     lg:p-10'>
-     <div className='lg:flex  justify-center  ml-8
-      items-center rounded-3xl drop-shadow-xl mb-5 '>
+     lg:p-10 '>
+      <div className='lg:flex justify-between gap-x-16 px-10'>
+      <div className='lg:flex   justify-center
+      items-center  '>
         <Image
         src={"/images/newarival-girl1.jpg"}
         alt="image"
         width={300}
-        height={300}>
+        height={300}
+        className='w-[300] h-[300] shadow-xl rounded-xl'>
        </Image>
        <div className=' lg:hidden flex flex-col 
        items-center'>
@@ -32,13 +35,14 @@ const NewArival = () => {
             <p>Explore Now!</p>
         </div>
       </div>
-      <div className='lg:flex justify-center ml-8
-      items-center rounded-3xl drop-shadow-xl mb-5'>
+      <div className='lg:flex justify-center
+      items-center'>
       <Image
         src={"/images/na-girl2.jpg"}
         alt="image"
         width={300}
-        height={300}>
+        height={300}
+        className='w-[300] h-[300] rounded-xl shadow-xl'>
        </Image>
        <div className=' lg:hidden flex flex-col 
        items-center'>
@@ -48,13 +52,14 @@ const NewArival = () => {
         </div>
 
       </div>
-      <div className='lg:flex justify-center ml-8
-      items-center rounded-3xl drop-shadow-xl mb-5'>
+      <div className='lg:flex justify-center
+      items-center  '>
       <Image
         src={"/images/na-girl3.jpg"}
         alt="image"
         width={300}
-        height={300}>
+        height={300}
+        className='w-[300] h-[300] shadow-xl rounded-xl'>
        </Image>
        <div className='lg:hidden flex flex-col items-center'>
             <h1 className='text-[4vmin] font-bold'>
@@ -62,6 +67,8 @@ const NewArival = () => {
             <p>Explore Now!</p>
         </div>
       </div>
+      </div>
+     
     </main>
     <section className='lg:flex max-w-5xl mx-auto  
     justify-evenly items-center gap-x-1 p-3 hidden ml-32'>

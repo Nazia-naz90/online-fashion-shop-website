@@ -1,5 +1,4 @@
 import React from "react";
-import Btn from "./btn";
 import Image from "next/image";
 import Link from "next/link";
 import styles from "./background.module.css";
@@ -37,12 +36,13 @@ const Hero = () => {
            </Link>
            </div>
            {/* IMAGE-SECTION */}
-          <div className="lg:w-[40vw] lg:h-[160vh] pt-16">
+          <div>
             <Image 
             src={"/images/hero-girl.png"}
             alt="image"
             width={1500}
-            height={1500}>
+            height={1500}
+            className="lg:w-[40vw] lg:h-[65vh]">
             </Image>
           </div>
         </div>
@@ -82,14 +82,17 @@ const Hero = () => {
           <div >
             <h6 className="text-[5vmin] text-yellow-300 
             bg-red-600 w-[70px] h-[45px] p-2 rounded-br-3xl
-              ">Levi's</h6>
+              ">Levi&apos;s</h6>
+
+
           </div>
-          <div >
+          <div>
           <Image
               src={"/images/amazone-icon.png"}
               alt="icon"
               width={130}
-              height={120}>
+              height={100}
+              className="  w-[150px] h-[75px] ">
               </Image>
           </div>
         </div>

@@ -24,154 +24,184 @@ const Lifestyle = () => {
 
         <div className="lg:mt-10 lg:mx-auto lg:grid grid-cols-3 justify-items-center lg:gap-24 lg:text-2xl items-center lg:p-3 
         font-semibold text-center mx-auto ">
-        <div className='flex flex-col w-[100%] h-[100%]'>
+        <div className='flex flex-col shadow-xl'>
         <Image
         src={"/lifestyle/lifestyle1.jpg"}
         alt="image"
-        width={1000}
-        height={1000}>
+        width={280}
+        height={350}
+        className='w-[280px] h-[350px]
+        rounded-lg shadow-xl'>
         </Image>
         <h6 className='flex text-[18px] text-black space-x-3'> <del className='text-red-600'>
           3000/=Rs</del> <ins>2500/=Rs</ins >ONLY</h6>
        </div>
-       <div>
+       <div className="flex flex-col shadow-xl">
        <Image
         src={"/lifestyle/lifestyle2.jpg"}
         alt="image"
-        width={500}
-        height={500}>
+        width={280}
+        height={350}
+        className='w-[280px] h-[350px]
+        rounded-lg shadow-xl'>
         </Image>
         <h6 className='flex text-[18px] text-black 
         space-x-3'> <del className='text-red-600'>
           3000/=Rs</del> <ins>2500/=Rs</ins >ONLY</h6>
        </div>
-       <div>
+       <div className="flex flex-col shadow-xl">
        <Image
         src={"/lifestyle/lifestyle10.jpg"}
         alt="image"
-        width={500}
-        height={500}>
+        width={280}
+        height={350}
+        className='w-[280px] h-[350px]
+        rounded-lg shadow-xl'>
         </Image>
         <h6 className='flex text-[18px] text-black space-x-3'> <del className='text-red-600'>
           3000/=Rs</del> <ins>2500/=Rs</ins >ONLY</h6>
        </div>
-       <div>
+       <div className="flex flex-col shadow-xl">
        <Image
         src={"/lifestyle/lifestyle3.jpg"}
         alt="image"
-        width={500}
-        height={500}>
+        width={280}
+        height={350}
+        className='w-[280px] h-[350px]
+        rounded-lg shadow-xl'>
         </Image>
         <h6 className='flex text-[18px] text-black space-x-3'> <del className='text-red-600'>
           3000/=Rs</del> <ins>2500/=Rs</ins >ONLY</h6>
        </div>
-       <div>
+       <div className="flex flex-col shadow-xl">
        <Image
         src={"/lifestyle/lifestyle4.jpg"}
         alt="image"
-        width={500}
-        height={500}>
+        width={280}
+        height={350}
+        className='w-[280px] h-[350px]
+        rounded-lg shadow-xl'>
         </Image>
         <h6 className='flex text-[18px] text-black space-x-3'> <del className='text-red-600'>
           3000/=Rs
         </del> <ins>2500/=Rs</ins >ONLY</h6>
         </div>
-        <div>
+        <div className="flex flex-col shadow-xl">
        <Image
         src={"/lifestyle/lifestyle5.jpg"}
         alt="image"
-        width={500}
-        height={500}>
+        width={280}
+        height={350}
+        className='w-[280px] h-[350px]
+        rounded-lg shadow-xl'>
         </Image>
         <h6 className='flex text-[18px] text-black space-x-3'> <del className='text-red-600'>
           3000/=Rs</del> <ins>2500/=Rs</ins >ONLY</h6>
        </div>
-       <div>
+       <div className="flex flex-col shadow-xl">
        <Image
         src={"/lifestyle/lifestyle7.jpg"}
         alt="image"
-        width={500}
-        height={500}>
+        width={280}
+        height={350}
+        className='w-[280px] h-[350px]
+        rounded-lg shadow-xl'>
         </Image>
         <h6 className='flex text-[18px] text-black space-x-3'> <del className='text-red-600'>
           3000/=Rs</del> <ins>2500/=Rs</ins >ONLY</h6>
        </div>
-       <div>
+       <div className="flex flex-col shadow-xl">
        <Image
         src={"/lifestyle/lifestyle11.jpg"}
         alt="image"
-        width={500}
-        height={500}>
+        width={280}
+        height={350}
+        className='w-[280px] h-[350px]
+        rounded-lg shadow-xl'>
         </Image>
         <h6 className='flex text-[18px] text-black space-x-3'> <del className='text-red-600'>
           3000/=Rs</del> <ins>2500/=Rs</ins >ONLY</h6>
        </div>
-       <div>
+       <div className="flex flex-col shadow-xl">
        <Image
         src={"/lifestyle/lifestyle14.jpg"}
         alt="image"
-        width={500}
-        height={500}>
+        width={280}
+        height={350}
+        className='w-[280px] h-[350px]
+        rounded-lg shadow-xl'>
         </Image>
         <h6 className='flex text-[18px] text-black space-x-3'> <del className='text-red-600'>
           3000/=Rs</del> <ins>2500/=Rs</ins >ONLY</h6>
        </div>
-       <div>
+       <div className="flex flex-col shadow-xl">
        <Image
         src={"/lifestyle/lifestyle15.jpg"}
         alt="image"
-        width={500}
-        height={500}>
+        width={280}
+        height={350}
+        className='w-[280px] h-[350px]
+        rounded-lg shadow-xl'>
         </Image>
         <h6 className='flex text-[18px] text-black space-x-3'> <del className='text-red-600'>
           3000/=Rs</del> <ins>2500/=Rs</ins >ONLY</h6>
        </div>
-       <div>
+       <div className="flex flex-col shadow-xl">
        <Image
         src={"/lifestyle/lifestyle17.jpg"}
         alt="image"
-        width={500}
-        height={500}>
+        width={280}
+        height={350}
+        className='w-[280px] h-[350px]
+        rounded-lg shadow-xl'>
         </Image>
         <h6 className='flex text-[18px] text-black space-x-3'> <del className='text-red-600'>
           3000/=Rs</del> <ins>2500/=Rs</ins >ONLY</h6>
        </div>
-       <div>
+       <div className="flex flex-col shadow-xl">
        <Image
         src={"/lifestyle/lifestyle18.jpg"}
         alt="image"
-        width={500}
-        height={500}>
+        width={280}
+        height={350}
+        className='w-[280px] h-[350px]
+        rounded-lg shadow-xl'>
         </Image>
         <h6 className='flex text-[18px] text-black space-x-3'> <del className='text-red-600'>
           3000/=Rs</del> <ins>2500/=Rs</ins >ONLY</h6>
        </div>
-       <div>
+       <div className="flex flex-col shadow-xl">
        <Image
         src={"/lifestyle/lifestyle19.jpg"}
         alt="image"
-        width={500}
-        height={500}>
+        width={280}
+        height={350}
+        className='w-[280px] h-[350px]
+        rounded-lg shadow-xl'>
         </Image>
         <h6 className='flex text-[18px] text-black space-x-3'> <del className='text-red-600'>
           3000/=Rs</del> <ins>2500/=Rs</ins >ONLY</h6>
        </div>
-       <div>
+       <div className="flex flex-col shadow-xl">
        <Image
         src={"/lifestyle/lifestyle20.jpg"}
         alt="image"
-        width={1000}
-        height={1000}>
+        width={280}
+        height={350}
+        className='w-[280px] h-[350px]
+        rounded-lg shadow-xl'>
         </Image>
         <h6 className='flex text-[18px] text-black space-x-3'> <del className='text-red-600'>
           3000/=Rs</del> <ins>2500/=Rs</ins >ONLY</h6>
        </div>
-       <div>
+       <div className="flex flex-col shadow-xl">
        <Image
         src={"/lifestyle/lifestyle21.jpg"}
         alt="image"
-        width={300}
-        height={200}>
+        width={280}
+        height={350}
+        className='w-[280px] h-[350px]
+        rounded-lg shadow-xl'>
         </Image>
         <h6 className='flex text-[18px] text-black space-x-3'> <del className='text-red-600'>
           3000/=Rs</del> <ins>2500/=Rs</ins >ONLY</h6>

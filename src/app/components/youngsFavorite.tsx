@@ -21,8 +21,10 @@ const YoungsFavorite = () => {
             src={"/images/young1.jpg"}
             alt="image"
             width={500}
-            height={575}
-          ></Image>
+            height={340}
+            className="w[500px] h-[340px] shadow-lg"
+            >
+          </Image>
           <div className="lg:hidden flex flex-col 
           items-center">
           <h1 className="text-[4vmin] font-bold">
@@ -35,7 +37,8 @@ const YoungsFavorite = () => {
             src={"/images/young2.jpg"}
             alt="image"
             width={500}
-            height={575}
+            height={340}
+            className="w[500px] h-[340px] shadow-lg"
           ></Image>
           <div className="lg:hidden flex flex-col items-center">
           <h1 className="text-[4vmin] font-bold">

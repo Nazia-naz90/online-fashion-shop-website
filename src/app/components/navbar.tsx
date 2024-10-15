@@ -6,7 +6,9 @@ import Image from "next/image";
 import useToggle from "../hooks/page";
 
 export default function Navbar() {
+  
   const { toggle, handleMenuClick } = useToggle();
+  
   return (
     <header className="h-[64px] bg-white drop-shadow-[0_0px_3px_rgba(117,195,16,0.5)] max-w-7xl  mx-auto lg:relative fixed">
       <div className="flex items-center justify-between gap-20 h-full px-4 sm:px-6 md:px-8 lg:mx-auto xl:px-4 max-w-7x1">
@@ -30,12 +32,13 @@ export default function Navbar() {
             className="hidden lg:flex h-full w-full items-center 
           justify-between gap-[46px] text-black 
           text-[17px] font-medium">
-            {navItem.map((item, index) => (
+            {navItem.map((item, id) => (
               <Link href={item.link} 
+              key={id}
           className="transition transform hover:-translate-y-1 
           motion-reduce:transition-none 
           motion-reduce:hover:transform-none">
-                <li key={index}>{item.title}</li>
+                <li key={id}>{item.title}</li>
               </Link>
               
             ))}
@@ -76,13 +79,14 @@ export default function Navbar() {
          justify-between space-y-4 text-white 
          text-[20px] font-medium"
                   >
-                    {navItem.map((item, index) => (
+                    {navItem.map((item, id) => (
                       <Link href={item.link}
+                      key={id}
                       className="transition transform hover:-translate-y-1 
                       motion-reduce:transition-none 
                       motion-reduce:hover:transform-none"
                        >
-                        <li key={index}>{item.title}</li>
+                        <li key={id}>{item.title}</li>
                       </Link>
                     ))}
                   </ul>

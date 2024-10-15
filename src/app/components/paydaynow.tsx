@@ -7,13 +7,13 @@ const Paydaynow = () => {
     <>
      <div className="lg:flex max-w-7xl lg:mx-auto lg:p-10 p-5
      items-center justify-center ">
-        <div className="lg:w-[35vw] lg:h-[80vh] 
-         bg-yellow-300 ">
+        <div>
             <Image
             src={"/images/paydaynow.jpg"}
             alt='image'
             width={600}
-            height={600}>
+            height={600}
+            className='lg:w-[40vw] h-[80vh]'>
 
             </Image>
         </div>
