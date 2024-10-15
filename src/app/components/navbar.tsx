@@ -7,7 +7,7 @@ import useToggle from "../hooks/page";
 
 export default function Navbar() {
   
-  const { toggle, handleMenuClick } = useToggle();
+  const  {toggle, handleMenuClick } = useToggle();
   
   return (
     <header className="h-[64px] bg-white drop-shadow-[0_0px_3px_rgba(117,195,16,0.5)] max-w-7xl  mx-auto lg:relative fixed">
@@ -17,8 +17,8 @@ export default function Navbar() {
             src={"/images/logo.jpg"}
             alt="logo-icon"
             width={35}
-            height={25}
-          ></Image>
+            height={25}>
+            </Image>
           <Image
             src={"/images/FASHION.jpg"}
             alt="Logo name"
@@ -65,7 +65,7 @@ export default function Navbar() {
               alt="burger icon"
               width={80}
               height={100}
-              onClick={handleMenuClick}
+              onClick = {handleMenuClick}
               className="cursor-pointer"
             ></Image>
           </div>
@@ -100,7 +100,8 @@ export default function Navbar() {
         transition transform hover:-translate-y-1 
         motion-reduce:transition-none 
         motion-reduce:hover:transform-none">
-                      <Link href={""}>SIGN UP</Link>                  </button>
+                      <Link href={""}>SIGN UP</Link>                  
+                      </button>
                 </div>
               </div>
             </div>
