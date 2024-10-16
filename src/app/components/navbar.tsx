@@ -10,7 +10,7 @@ export default function Navbar() {
   const  {toggle, handleMenuClick } = useToggle();
   
   return (
-    <header className="h-[64px] bg-white drop-shadow-[0_0px_3px_rgba(117,195,16,0.5)] max-w-7xl  mx-auto lg:relative fixed">
+    <header className="lg:h-[70px] h-[64px] bg-white drop-shadow-[0_0px_3px_rgba(117,195,16,0.5)] lg:max-w-7xl  lg:mx-auto lg:relative fixed">
       <div className="flex items-center justify-between gap-20 h-full px-4 sm:px-6 md:px-8 lg:mx-auto xl:px-4 max-w-7x1">
         <div className="lg:flex sm:flex-row gap-2 ">
           <Image
@@ -27,7 +27,7 @@ export default function Navbar() {
           ></Image>
         </div>
 
-        <nav className="h-[44.54px]">
+        <nav className="lg:h-[44.54px] ">
           <ul
             className="hidden lg:flex h-full w-full items-center 
           justify-between gap-[46px] text-black 
@@ -58,16 +58,14 @@ export default function Navbar() {
 
         {/* HAMBURGER BUTTON FOR MOBILE */}
         <div className="lg:hidden">
-          <div className="flex justify-between ml-[5vmin] 
-           mx-4 ">
-            <Image
-              src={"/img/hameburger-icon-b.jpg"}
-              alt="burger icon"
-              width={80}
-              height={100}
-              onClick = {handleMenuClick}
-              className="cursor-pointer"
-            ></Image>
+          <div className="flex flex-col justify-between ml-[3vmin] 
+           mx-4 gap-y-1  " onClick = {handleMenuClick}>
+            <div className="w-[25px] bg-black 
+            h-[4px] mt-5px mb-5px ml-3px mr-3px"></div>
+            <div className="w-[25px] bg-black
+            h-[4px] mt-5px mb-5px ml-3px mr-3px"></div>
+            <div className="w-[25px] bg-black 
+            h-[4px] mt-5px mb-5px ml-3px mr-3px"></div>
           </div>
           {/* media query on navbar */}
           {toggle && (

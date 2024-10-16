@@ -9,9 +9,7 @@ const NewArival = () => {
             src={"/images/new-arival.jpg"}
             alt="heading"
             width={250}
-            height={80}
-            >
-
+            height={80}>
             </Image>
         </div>
      </header>
@@ -26,7 +24,7 @@ const NewArival = () => {
         alt="image"
         width={300}
         height={300}
-        className='w-[300] h-[300] shadow-xl rounded-xl'>
+        className='lg:w-[300px] lg:h-[435px] shadow-xl rounded-xl'>
        </Image>
        <div className=' lg:hidden flex flex-col 
        items-center'>
@@ -42,7 +40,7 @@ const NewArival = () => {
         alt="image"
         width={300}
         height={300}
-        className='w-[300] h-[300] rounded-xl shadow-xl'>
+        className='lg:w-[300px] lg:h-[435px] rounded-xl shadow-xl'>
        </Image>
        <div className=' lg:hidden flex flex-col 
        items-center'>
@@ -59,7 +57,7 @@ const NewArival = () => {
         alt="image"
         width={300}
         height={300}
-        className='w-[300] h-[300] shadow-xl rounded-xl'>
+        className='lg:w-[300px] lg:h-[435px] shadow-xl rounded-xl'>
        </Image>
        <div className='lg:hidden flex flex-col items-center'>
             <h1 className='text-[4vmin] font-bold'>

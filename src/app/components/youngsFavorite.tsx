@@ -22,7 +22,7 @@ const YoungsFavorite = () => {
             alt="image"
             width={500}
             height={340}
-            className="w[500px] h-[340px] shadow-lg"
+            className="lg:w[500px] lg:h-[340px] shadow-lg"
             >
           </Image>
           <div className="lg:hidden flex flex-col 
@@ -38,7 +38,7 @@ const YoungsFavorite = () => {
             alt="image"
             width={500}
             height={340}
-            className="w[500px] h-[340px] shadow-lg"
+            className="lg:w[500px] lg:h-[340px] shadow-lg"
           ></Image>
           <div className="lg:hidden flex flex-col items-center">
           <h1 className="text-[4vmin] font-bold">

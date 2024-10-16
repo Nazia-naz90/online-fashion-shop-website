@@ -139,7 +139,7 @@ const Footer = () => {
           </div>
           {/* footer-pannel-2 */}
           {/* Company */}
-          <div className="lg:flex lg:justify-between 
+          <div className="lg:flex flex-grow lg:justify-between 
            space-x-20">
           <div className="flex flex-col items-center 
           height-[300px] text-white mt-10 ">
@@ -166,7 +166,7 @@ const Footer = () => {
           </div>
           {/* =====Legal====== */}
           <div
-            className="flex flex-col height-[300px]
+            className="flex flex-col  height-[300px]
     text-white mt-10">
             <ul className="flex flex-col text-gray-400 gap-3">
               <h6 className="text-white">Legal</h6>

@@ -3,8 +3,8 @@ import Image from 'next/image';
 const Downloadapp = () => {
   return (
    <>
-   <main className="lg:flex max-w-7xl mx-auto justify-center 
-        items-center gap-x-40 p-10 ">
+   <main className="lg:flex max-w-7xl lg:mx-auto justify-center 
+        items-center lg:gap-x-40 lg:p-10 pl-10 pr-10">
             <div className='flex flex-col justify-start 
             items-start leading-relaxed'>
                 <h1 className='text-[6vmin] 
