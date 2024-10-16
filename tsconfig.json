@@ -32,7 +32,7 @@
     "**/*.ts",
     "**/*.tsx",
     ".next/types/**/*.ts",
-    "src/app/hooks/page.jsx"
+    "src/app/hooks/hooks.tsx"
   ],
   "exclude": [
     "node_modules"

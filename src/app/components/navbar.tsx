@@ -3,7 +3,7 @@
 import navItem from "../constant";
 import Link from "next/link";
 import Image from "next/image";
-import useToggle from "../hooks/page";
+import useToggle from "../hooks/hooks";
 
 export default function Navbar() {
   
