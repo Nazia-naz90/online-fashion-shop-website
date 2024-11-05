@@ -6,11 +6,16 @@ import styles from "./background.module.css";
 const Hero = () => {
   return (
     <>
-      <main className="flex max-w-7xl mx-auto">
-        <div className="lg:flex  justify-between 
-        lg:w-[80vw]  lg:h-[80vh] mx-auto 
-        lg:m-auto mt-10 lg:px-40  bg-slate-200 rounded-2xl lg:pt-16
-        p-10">
+      <main
+      className="flex flex-col max-w-7xl 
+      mx-auto my-auto container">
+  
+      <div className="lg:flex  justify-between items-center
+      max-w-full sm:max-w-full md:max-w-full lg:max-w-7xl xl:max-w-7xl
+      w-[80vw] sm:w-[80vw] md:w-[100vw]
+      lg:w-[80vw] lg:h-[80vh]  mx-auto sm:mx-auto md:mx-32 lg:mx-auto xl:mx-auto
+      mt-10 lg:px-40  bg-slate-200 rounded-2xl lg:pt-16
+      p-10 container">
           {/* TEXT-SECTION */}
           <div className="  lg:w-[40vw] lg:h-[100%] lg:p-10
           p-5">
@@ -50,19 +55,28 @@ const Hero = () => {
       <div>
       {/* BOTTOM-SECTION */}
       <div
-        className="lg:flex items-center justify-center
-         max-w-7xl bg-yellow-300 lg:h-[20vh] m-auto mt-10
-         p-10">
+        className="lg:flex  items-center justify-center
+        max-w-7xl sm:max-w-7xl md:max-w-7xl lg:max-w-7xl xl:max-w-7xl bg-yellow-300 h-[50vh] sm:h-[20vh] md:h-[50vh] lg:h-[20vh]
+        xl:h-[20vh] 
+        mx-auto sm:mx-auto md:mx-32 lg:mx-auto xl:mx-auto
+        mt-10 p-10 pl-32 sm:pl-72 md:pl-72 lg:pl-10
+        container"
+        >
         <div className="lg:flex  lg:justify-between
-        items-center justify-center w-full mx-auto lg:p-16  
-        lg:gap-x-24 ">
-          <div>
-            <h6 className="italic text-red-600 text-[5vmin] font-extrabold">H.M</h6>
+        items-center justify-center max-w-full sm:max-w-full md:max-w-full lg:max-w-full xl:max-w-full
+        mx-auto sm:mx-auto md:mx-auto lg:mx-auto xl:mx-auto 
+        lg:p-16  
+        lg:gap-x-24
+        container ">
+          <div className="flex container">
+            <h6 className="italic text-red-600 text-[5vmin] sm:text-[2vmin]
+            md:text-[5vmin] lg:text-[5vmin] 
+            font-extrabold">H.M</h6>
           </div>
           <div >
             <h6 className="italic text-black text-[4vmin] font-extrabold ">OBEY.</h6>
           </div>
-          <div className="flex ">
+          <div className="flex container">
           <h6 className="italic text-black text-[5vmin] font-extrabold">
           shopify</h6>
             <Image
@@ -74,8 +88,9 @@ const Hero = () => {
             ></Image>
 
           </div>
-          <div className="flex">
-            <h6 className="text-[4vmin] text-black font-bold">LACOSTE</h6>
+          <div className="flex container">
+            <h6 className="text-[4vmin] text-black font-bold
+            ">LACOSTE</h6>
             <Image
               src={"/images/lacoste-icon.png"}
               alt="icon"
@@ -83,14 +98,14 @@ const Hero = () => {
               height={30}>
               </Image>
           </div>
-          <div >
+          <div className="flex container">
             <h6 className="text-[5vmin] text-yellow-300 
             bg-red-600 w-[70px] h-[40px] p-2 rounded-br-3xl
               ">Levi&apos;s</h6>
 
 
           </div>
-          <div>
+          <div className="flex container">
           <Image
               src={"/images/amazone-icon.png"}
               alt="icon"

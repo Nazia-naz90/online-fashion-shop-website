@@ -4,12 +4,19 @@ import Image from "next/image";
 const Footer = () => {
   return (
     <>
-      <section
-        className=" bg-yellow-400 
-            lg:flex flex-col justify-center items-center
-             max-w-7xl lg:h-[70vh] lg:p-20 p-16
-            mx-auto mt-0  lg:space-x-10 lg:gap-y-10"
-      >
+      <section>
+        <div className=" bg-yellow-400 
+             lg:flex flex-col 
+             justify-center sm:justify-center md:justify-center lg:justify-center xl:justify-center
+             items-center sm:items-center md:items-center lg:items-center
+             xl:items-center
+             max-w-full sm:max-w-7xl md:max-w-7xl lg:max-w-7xl xl:max-w-7xl
+             lg:h-[70vh] 
+             p-16  md:px-96 sm:p-16 lg:p-20 md:text-justify
+             md:w-[1240px]
+             mx-auto sm:mx-auto md:mx-auto lg:mx-auto xl:mx-auto
+             mt-0 lg:space-x-10 lg:gap-y-10 container">
+         
         <div
           className="lg:flex flex-col items-center 
         justify-center m-auto"
@@ -58,21 +65,31 @@ const Footer = () => {
           </a>
           
         </div>
+
+        </div>
+       
       </section>
-      <footer
-        className="lg:flex flex-col justify-between 
-        max-w-7xl mx-auto mt-0 bg-black p-10 "
-      >
-        {/* footer-pannel-1 */}
-        <div
+
+      <footer>
+        
+             {/* footer-panel-1 */}
+             <div
           className="flex justify-center items-center 
-          content-center 
-          height-[50px] mt-10 bg-slate-400"
+          content-center md:w-[1240px]
+          height-[50px]  bg-slate-400"
         >
           <Link href={"/"} className="text-white">
             back to top
           </Link>
         </div>
+
+      <div  className="lg:flex  justify-between 
+        max-w-7xl sm:max-w-7xl md:max-w-7xl lg:max-w-7xl xl:max-w-7xl
+        mx-auto sm:mx-auto md:mx-auto lg:mx-auto xl:mx-auto
+        md:w-[1240px]
+        mt-0 bg-black p-10 container">
+
+              
         {/* footer-logo-icons*/}
         <div className="lg:flex items-center mt-10 lg:gap-x-10 
         lg:mx-auto">
@@ -155,7 +172,7 @@ const Footer = () => {
           {/*====== Quic-Link ========*/}
           <div
             className="flex flex-col height-[300px]
-    text-white mt-10">
+    text-white mt-10  md:items-center md:justify-center">
             <ul className="flex flex-col text-gray-400 gap-3">
               <h6 className="text-white">Quick Link</h6>
               <a>Share Location</a>
@@ -167,7 +184,7 @@ const Footer = () => {
           {/* =====Legal====== */}
           <div
             className="flex flex-col  height-[300px]
-    text-white mt-10">
+    text-white mb-10 md:items-center md:justify-center">
             <ul className="flex flex-col text-gray-400 gap-3">
               <h6 className="text-white">Legal</h6>
               <a>Terms & conditions</a>
@@ -179,14 +196,18 @@ const Footer = () => {
           
           {/* © 2024 shope, Inc. */}
         </div>
-        <section
+
+
+      </div>
+      <section
           className="flex justify-center items-center 
-          height-[50px] mt-10 mb-10">
+          height-[50px] bg-black md:w-[1240px]">
           <div>
             <h6 className="text-gray-400">
               © 2024 Fashion Shope Karachi Pakistan.</h6>
           </div>
         </section>
+
       </footer>
     </>
   );

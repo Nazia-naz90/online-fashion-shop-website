@@ -3,9 +3,15 @@ import Image from 'next/image';
 const Downloadapp = () => {
   return (
    <>
-   <main className="lg:flex max-w-7xl lg:mx-auto justify-center 
-        items-center lg:gap-x-40 lg:p-10 pl-10 pr-10">
-            <div className='flex flex-col justify-start 
+   <main className='flex  max-w-7xl mx-auto container'>
+
+    <div className='lg:flex max-w-7xl sm:max-w-7xl md:max-w-7xl lg:max-w-7xl
+     xl:max-w-7xl 
+     mx:auto sm:mx-auto md:mx-auto lg:mx-auto xl:mx-auto
+     justify-center items-center lg:gap-x-40 lg:p-10 pl-10 pr-10
+     md:ml-96 md:mt-10  '>
+
+   <div className='flex flex-col justify-start 
             items-start leading-relaxed'>
                 <h1 className='text-[6vmin] 
                 font-bold font-sans'>DOWNLOAD APP &</h1>
@@ -39,6 +45,8 @@ const Downloadapp = () => {
                 height={710}>
                 </Image>
             </div>
+
+    </div>
 
    </main>
    </>

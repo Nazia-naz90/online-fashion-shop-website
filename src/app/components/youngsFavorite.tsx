@@ -4,7 +4,10 @@ import Image from "next/image";
 const YoungsFavorite = () => {
   return (
     <>
-      <div className="lg:flex mt-10 p-10">
+    <div>
+
+    <div className="flex  mt-10 p-10 items-center sm:items-center md:items-center lg:items-center container mx-auto sm:mx-60 md:mx-80
+      lg:mx-auto xl:mx-auto">
         <Image
           src={"/images/youngfavorite.jpg"}
           alt="heading"
@@ -13,26 +16,31 @@ const YoungsFavorite = () => {
         ></Image>
       </div>
       <main
-        className="lg:flex max-w-7xl mx-auto  
-        justify-center items-center lg:gap-x-10 p-10 "
+        className="flex  max-w-7xl mx-auto container
+         "
       >
-        <div className="lg:flex mb-8">
+       <div className="lg:flex max-w-7xl sm:max-w-7xl md:max-w-7xl 
+       lg:max-w-7xl xl:max-w-7xl 
+       mx-auto sm:mx-auto md:mx-auto lg:mx-auto xl:mx-auto
+       lg:space-x-10 md:ml-80
+       ">
+
+       <div className="flex flex-col items-center justify-center ">
           <Image
             src={"/images/young1.jpg"}
             alt="image"
             width={500}
             height={340}
-            className="lg:w[500px] lg:h-[340px] shadow-lg"
+            className="
+            w-[500px] h-[340px] shadow-lg"
             >
           </Image>
-          <div className="lg:hidden flex flex-col 
-          items-center">
           <h1 className="text-[4vmin] font-bold">
             Trending on instagram</h1>
           <p>Explore Now!</p>
         </div>
-        </div>
-        <div className="lg:flex mb-8">
+
+        <div className="flex flex-col items-center justify-center">
           <Image
             src={"/images/young2.jpg"}
             alt="image"
@@ -40,29 +48,18 @@ const YoungsFavorite = () => {
             height={340}
             className="lg:w[500px] lg:h-[340px] shadow-lg"
           ></Image>
-          <div className="lg:hidden flex flex-col items-center">
+
           <h1 className="text-[4vmin] font-bold">
             All Under $40</h1>
           <p>Explore Now!</p>
         </div>
 
-        </div>
+       </div>
+
       </main>
-      <section
-        className="lg:flex max-w-5xl mx-auto  
-    justify-evenly items-center gap-x-1 p-3 hidden"
-      >
-        <div className="flex flex-col flex-grow">
-          <h1 className="text-[4vmin] font-bold">
-            Trending on instagram</h1>
-          <p>Explore Now!</p>
-        </div>
-        <div className="flex flex-col flex-grow">
-          <h1 className="text-[4vmin] font-bold">
-            All Under $40</h1>
-          <p>Explore Now!</p>
-        </div>
-      </section>
+
+    </div>
+      
     </>
   );
 };

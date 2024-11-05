@@ -10,20 +10,30 @@ export default function Navbar() {
   const  {toggle, handleMenuClick } = useToggle();
   
   return (
-    <header className="lg:h-[70px] h-[64px] bg-white drop-shadow-[0_0px_3px_rgba(117,195,16,0.5)] lg:max-w-7xl  lg:mx-auto lg:relative fixed">
-      <div className="flex items-center justify-between gap-20 h-full px-4 sm:px-6 md:px-8 lg:mx-auto xl:px-4 max-w-7x1">
-        <div className="lg:flex sm:flex-row gap-2 ">
+    <header className="h-[75px] sm:h-[64px] md:h-[64px] lg:h-[74px]  bg-white 
+   drop-shadow-[0_0px_3px_rgba(117,195,16,0.5)] max-w-7xl sm:max-w-7xl
+   md:max-w-7xl lg:max-w-7xl xl:max-w-7xl 2xl:max-w-7xl
+   mx-auto sm:mx-auto md:mx-auto lg:mx-auto xl:mx-auto fixed container lg:relative">
+
+  <div className="flex items-center justify-between gap-20 h-full px-4 sm:px-6 md:px-8 lg:mx-auto xl:px-4 max-w-7x1 sm:max-w-full md:max-w-7xl lg:max-w-7xl xl:max-w-7xl container">
+        <div className="flex 
+        items-center justify-center
+        sm:flex-row gap-2  ml-5">
           <Image
             src={"/images/logo.jpg"}
             alt="logo-icon"
             width={35}
-            height={25}>
+            height={25}
+            className="w-[35px]
+            h-[25px]">
             </Image>
           <Image
             src={"/images/FASHION.jpg"}
             alt="Logo name"
             width={150}
             height={60}
+            className="w-[100%]
+            h-[100%]"
           ></Image>
         </div>
 
@@ -58,7 +68,7 @@ export default function Navbar() {
 
         {/* HAMBURGER BUTTON FOR MOBILE */}
         <div className="lg:hidden">
-          <div className="flex flex-col justify-between ml-[3vmin] 
+          <div className="flex flex-col justify-between  
            mx-4 gap-y-1  " onClick = {handleMenuClick}>
             <div className="w-[25px] bg-black 
             h-[4px] mt-5px mb-5px ml-3px mr-3px"></div>
@@ -69,7 +79,8 @@ export default function Navbar() {
           </div>
           {/* media query on navbar */}
           {toggle && (
-            <div className="absolute right-0 w-48 h-[65vh] bg-slate-400 mt-5 p-4 rounded-md ">
+            <div className="absolute right-0 w-48 h-[65vh] bg-slate-400 mt-5 p-4 
+            rounded-md ">
             <div className="flex flex-col justify-center items-center">
             <nav className="h-[44.54px]">
                   <ul

@@ -5,7 +5,11 @@ import Link from 'next/link'
 const Paydaynow = () => {
   return (
     <>
-     <div className="lg:flex max-w-7xl lg:mx-auto lg:p-10 p-5
+    <div className='lg:flex max-w-7xl mx-auto container'>
+    <div className="lg:flex max-w-7xl sm:max-w-7xl md:max-w-7xl 
+     lg:max-w-7xl xl:max-w-7xl mx-auto sm:mx-auto md:mx-auto lg:mx-auto
+     xl:mx-auto container
+     lg:p-10 p-5 md:ml-32
      items-center justify-center ">
         <div>
             <Image
@@ -13,7 +17,9 @@ const Paydaynow = () => {
             alt='image'
             width={600}
             height={600}
-            className='lg:w-[40vw] lg:h-[80vh]'>
+            className='w-[100%] sm:w-[100%] md:w-[100%] 
+            lg:w-[100%] xl:w-[100%]
+            h-[80vh] sm:h-[80vh] md:h-[80vh] lg:h-[80vh] xl:h-[80vh]'>
 
             </Image>
         </div>
@@ -44,6 +50,8 @@ const Paydaynow = () => {
             </div>
                  
       </div>
+    </div>
+
     </>
 
   )
