@@ -11,9 +11,8 @@ const Footer = () => {
              items-center sm:items-center md:items-center lg:items-center
              xl:items-center
              max-w-full sm:max-w-7xl md:max-w-7xl lg:max-w-7xl xl:max-w-7xl
-             lg:h-[70vh] 
+             lg:h-[70vh] md:w-[1240px]
              p-16  md:px-96 sm:p-16 lg:p-20 md:text-justify
-             md:w-[1240px]
              mx-auto sm:mx-auto md:mx-auto lg:mx-auto xl:mx-auto
              mt-0 lg:space-x-10 lg:gap-y-10 container">
          
@@ -75,7 +74,8 @@ const Footer = () => {
              {/* footer-panel-1 */}
              <div
           className="flex justify-center items-center 
-          content-center md:w-[1240px]
+          content-center mx-auto sm:mx-auto md:mx-auto lg:mx-auto xl:mx-auto
+          md:w-[1240px]
           height-[50px]  bg-slate-400"
         >
           <Link href={"/"} className="text-white">
@@ -83,15 +83,14 @@ const Footer = () => {
           </Link>
         </div>
 
-      <div  className="lg:flex  justify-between 
+      <div  className="lg:flex md:flex justify-between 
         max-w-7xl sm:max-w-7xl md:max-w-7xl lg:max-w-7xl xl:max-w-7xl
-        mx-auto sm:mx-auto md:mx-auto lg:mx-auto xl:mx-auto
-        md:w-[1240px]
-        mt-0 bg-black p-10 container">
+        mx-auto sm:mx-7xl md:mx-7xl lg:mx-7xl xl:mx-7xl md:w-[1240px]
+        mt-0 bg-black p-10 md:pl-24 container">
 
               
         {/* footer-logo-icons*/}
-        <div className="lg:flex items-center mt-10 lg:gap-x-10 
+        <div className="lg:flex md:flex items-center mt-10 lg:gap-x-10 
         lg:mx-auto">
           <div className="flex justify-center items-center 
           py-10 lg:mr-64">
@@ -156,8 +155,9 @@ const Footer = () => {
           </div>
           {/* footer-pannel-2 */}
           {/* Company */}
-          <div className="lg:flex flex-grow lg:justify-between 
-           space-x-20">
+          <div className="lg:flex md:flex
+          flex-grow lg:justify-between md:justify-between
+          space-x-20 sm:space-x-10 md:space-x-24 lg:space-x-20 xl:space-x-20 mx-aut0 sm:mx-auto md:mx-32 lg:mx-auto xl:mx-auto">
           <div className="flex flex-col items-center 
           height-[300px] text-white mt-10 ">
             <ul className="flex flex-col text-gray-400 
@@ -172,7 +172,7 @@ const Footer = () => {
           {/*====== Quic-Link ========*/}
           <div
             className="flex flex-col height-[300px]
-    text-white mt-10  md:items-center md:justify-center">
+            text-white mt-10  md:items-center md:justify-center">
             <ul className="flex flex-col text-gray-400 gap-3">
               <h6 className="text-white">Quick Link</h6>
               <a>Share Location</a>
@@ -184,7 +184,7 @@ const Footer = () => {
           {/* =====Legal====== */}
           <div
             className="flex flex-col  height-[300px]
-    text-white mb-10 md:items-center md:justify-center">
+             text-white mb-10 md:items-center md:justify-center">
             <ul className="flex flex-col text-gray-400 gap-3">
               <h6 className="text-white">Legal</h6>
               <a>Terms & conditions</a>
@@ -200,8 +200,11 @@ const Footer = () => {
 
       </div>
       <section
-          className="flex justify-center items-center 
-          height-[50px] bg-black md:w-[1240px]">
+          className="flex max-w-7xl sm:max-w-7xl md:max-w-7xl lg:max-w-7xl
+          justify-center sm:justify-center md:justify-center lg:justify-center xl:justify-center
+          items-center sm:items-center md:items-center lg:items-center 
+          xl:items-center mx-auto bg-black 
+          h-[50px] md:w-[1240px] ">
           <div>
             <h6 className="text-gray-400">
               © 2024 Fashion Shope Karachi Pakistan.</h6>

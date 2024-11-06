@@ -12,8 +12,7 @@ const Hero = () => {
   
       <div className="lg:flex  justify-between items-center
       max-w-full sm:max-w-full md:max-w-full lg:max-w-7xl xl:max-w-7xl
-      w-[80vw] sm:w-[80vw] md:w-[100vw]
-      lg:w-[80vw] lg:h-[80vh]  mx-auto sm:mx-auto md:mx-32 lg:mx-auto xl:mx-auto
+      lg:w-[80vw] lg:h-[80vh]  mx-auto sm:mx-auto md:mx-60 lg:mx-auto xl:mx-auto 
       mt-10 lg:px-40  bg-slate-200 rounded-2xl lg:pt-16
       p-10 container">
           {/* TEXT-SECTION */}
@@ -54,11 +53,13 @@ const Hero = () => {
       </main>
       <div>
       {/* BOTTOM-SECTION */}
+      <section>
+
       <div
         className="lg:flex  items-center justify-center
         max-w-7xl sm:max-w-7xl md:max-w-7xl lg:max-w-7xl xl:max-w-7xl bg-yellow-300 h-[50vh] sm:h-[20vh] md:h-[50vh] lg:h-[20vh]
         xl:h-[20vh] 
-        mx-auto sm:mx-auto md:mx-32 lg:mx-auto xl:mx-auto
+        mx-auto sm:mx-auto md:mx-60 lg:mx-auto xl:mx-auto
         mt-10 p-10 pl-32 sm:pl-72 md:pl-72 lg:pl-10
         container"
         >
@@ -116,6 +117,9 @@ const Hero = () => {
           </div>
         </div>
       </div>
+
+      </section>
+      
     </div>
       
     </>

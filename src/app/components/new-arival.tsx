@@ -3,11 +3,10 @@ import Image from 'next/image'
 const NewArival = () => {
   return (
     <>
-     <header className='flex  max-w-7xl mx-auto container'>
+     <header>
      <div className='flex  mt-10 p-10 items-center justify-center sm:items-center sm:justify-center md:items-center md:justify-center
      lg:items-start lg:justify-start mx-auto sm:mx-auto md:mx-auto
      lg:mx-auto xl:mx-auto 
-     md:ml-60
      container'>
     
             <Image
@@ -19,12 +18,17 @@ const NewArival = () => {
             </Image>
         </div>
      </header>
-     <main className='flex  max-w-7xl mx-auto container '>
 
-      <div className='lg:flex  justify-center items-center 
-       max-w-7xl sm:max-w-7xl md:w-7xl lg:max-w-7xl
-     mx-auto sm:mx-auto md:mx-auto lg:mx-auto xl:mx-auto
-     md:ml-80 lg:space-x-10
+     <main>
+    <div className='md:flex lg:flex 
+    items-center sm:items-center md:items-center lg:items-center
+    xl:items-center 
+    justify-center sm:justify-center md:justify-center lg:justify-center
+    xl:justify-center 
+     max-w-7xl sm:max-w-7xl md:w-7xl lg:max-w-7xl
+     mx-auto sm:mx-auto md:mx-60 lg:mx-auto xl:mx-auto
+     md:space-x-10
+     container
      '>
 
       <div className='flex flex-col justify-center

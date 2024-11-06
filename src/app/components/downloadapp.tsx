@@ -3,13 +3,22 @@ import Image from 'next/image';
 const Downloadapp = () => {
   return (
    <>
-   <main className='flex  max-w-7xl mx-auto container'>
+   <main>
 
-    <div className='lg:flex max-w-7xl sm:max-w-7xl md:max-w-7xl lg:max-w-7xl
-     xl:max-w-7xl 
-     mx:auto sm:mx-auto md:mx-auto lg:mx-auto xl:mx-auto
-     justify-center items-center lg:gap-x-40 lg:p-10 pl-10 pr-10
-     md:ml-96 md:mt-10  '>
+   <div className="
+    flex lg:flex md:flex 
+    max-w-full sm:max-w-full md:max-w-full lg:max-w-7xl xl:max-w-7xl 
+    mx-auto sm:mx-auto md:mx-60 lg:mx-auto xl:mx-auto
+    justify-center sm:justify-center md:justify-center lg:justify-center xl:justify-center
+    items-center sm:items-center md:items-center lg:items-center xl:items-center
+    lg:gap-x-40 md:gap-x-20
+    lg:p-10 md:p-8 sm:p-6 p-4
+    md:mt-10 mt-5 container
+  "
+>
+  {/* Your content here */}
+
+
 
    <div className='flex flex-col justify-start 
             items-start leading-relaxed'>
@@ -42,12 +51,13 @@ const Downloadapp = () => {
                 <Image src={"/images/mobileapp.png"}
                 alt="mobile-image"
                 width={327.89}
-                height={710}>
+                height={710}
+                className='w-[327.89px] 
+                h-[full] '>
                 </Image>
             </div>
 
     </div>
-
    </main>
    </>
   )

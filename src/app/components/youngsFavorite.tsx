@@ -16,13 +16,17 @@ const YoungsFavorite = () => {
         ></Image>
       </div>
       <main
-        className="flex  max-w-7xl mx-auto container
-         "
+
       >
-       <div className="lg:flex max-w-7xl sm:max-w-7xl md:max-w-7xl 
+       <div className="flex md:flex 
+       items-center sm:items-center md:items-center lg:items-center
+       xl:items-center  justify-center sm:justify-center md:justify-center
+       lg:justify-center xl:justify-center
+       lg:flex max-w-7xl sm:max-w-7xl md:max-w-7xl 
        lg:max-w-7xl xl:max-w-7xl 
        mx-auto sm:mx-auto md:mx-auto lg:mx-auto xl:mx-auto
-       lg:space-x-10 md:ml-80
+       space-x-10  md:space-x-20 lg:space-x-10 xl:space-x-10
+       md:ml-64 container
        ">
 
        <div className="flex flex-col items-center justify-center ">
@@ -32,7 +36,7 @@ const YoungsFavorite = () => {
             width={500}
             height={340}
             className="
-            w-[500px] h-[340px] shadow-lg"
+            lg:w-[500px] lg:h-[340px] shadow-lg"
             >
           </Image>
           <h1 className="text-[4vmin] font-bold">
