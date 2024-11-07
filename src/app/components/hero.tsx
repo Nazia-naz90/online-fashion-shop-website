@@ -7,12 +7,17 @@ const Hero = () => {
   return (
     <>
       <main
-      className="flex flex-col max-w-7xl 
-      mx-auto my-auto container">
+      className="flex flex-col
+      max-w-7xl sm:max-w-7xl
+      md:max-w-7xl lg:max-w-7xl xl:max-w-7xl 2xl:max-w-7xl
+      mx-auto sm:mx-auto md:mx-auto lg:mx-auto xl:mx-auto 
+      my-auto container">
   
       <div className="lg:flex  justify-between items-center
       max-w-full sm:max-w-full md:max-w-full lg:max-w-7xl xl:max-w-7xl
-      lg:w-[80vw] lg:h-[80vh]  mx-auto sm:mx-auto md:mx-60 lg:mx-auto xl:mx-auto 
+      w-[100vw] sm:w-[100vw] lg:w-[80vw] xl:w-[80vw]
+      lg:h-[80vh]  mx-auto sm:mx-auto md:mx-60 lg:mx-auto 
+      xl:mx-auto 
       mt-10 lg:px-40  bg-slate-200 rounded-2xl lg:pt-16
       p-10 container">
           {/* TEXT-SECTION */}
