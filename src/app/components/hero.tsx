@@ -6,20 +6,26 @@ import styles from "./background.module.css";
 const Hero = () => {
   return (
     <>
-      <main
-      className="flex flex-col
-      max-w-7xl sm:max-w-7xl
-      md:max-w-7xl lg:max-w-7xl xl:max-w-7xl 2xl:max-w-7xl
-      mx-auto sm:mx-auto md:mx-auto lg:mx-auto xl:mx-auto 
-      my-auto container">
-  
-      <div className="flex sm:flex md:flex lg:flex xl:flex justify-between items-center
+     <main
+  className="
+    flex flex-col 
+    max-w-full sm:max-w-full md:max-w-7xl lg:max-w-7xl xl:max-w-7xl 2xl:max-w-7xl
+    mx-auto sm:mx-auto md:mx-60 lg:mx-auto xl:mx-auto 
+    my-auto container
+  "
+>
+  <div
+    className="
+      flex flex-col lg:flex-row justify-between items-center
       max-w-full sm:max-w-full md:max-w-full lg:max-w-7xl xl:max-w-7xl
-      w-[100vw] sm:w-[100vw] lg:w-[80vw] xl:w-[80vw]
-      lg:h-[80vh]  mx-auto sm:mx-auto md:mx-60 lg:mx-auto 
-      xl:mx-auto 
-      mt-10 lg:px-40  bg-slate-200 rounded-2xl lg:pt-16
-      p-10 container">
+      w-full md:w-[85vw] lg:w-[80vw] lg:h-[80vh] mx-auto
+      mt-10 md:mt-20 lg:mt-10 lg:px-40 bg-slate-200 rounded-2xl lg:pt-16
+      p-5 sm:p-8 md:p-10 container
+    "
+  >
+    {/* Your content here */}
+  
+
           {/* TEXT-SECTION */}
           <div className="  lg:w-[40vw] lg:h-[100%] lg:p-10
           p-5">
