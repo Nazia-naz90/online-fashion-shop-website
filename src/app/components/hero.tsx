@@ -19,7 +19,7 @@ const Hero = () => {
       w-full sm:w-[100vw] md:w-[100vw] lg:w-[80vw] 
       mx-auto sm:mx-auto md:mx-60 lg:mx-auto xl:mx-auto xl2:mx-auto
       mt-10 md:mt-20 lg:mt-10 lg:px-40 bg-slate-200 rounded-2xl lg:pt-16
-      p-5 sm:p-10 md:p-10 container
+      p-5 sm:p-32 md:p-10 container
     "
   >
     {/* Your content here */}
