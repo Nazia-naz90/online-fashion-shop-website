@@ -15,9 +15,9 @@ const Hero = () => {
   "
 >
   <div
-    className="flex flex-col sm:block lg:flex-row justify-between items-center
+    className="flex sm:flex flex-col  lg:flex-row justify-between items-center
       max-w-full sm:max-w-full md:max-w-full lg:max-w-7xl xl:max-w-7xl
-      w-full md:w-[85vw] lg:w-[80vw] lg:h-[80vh] mx-auto
+      w-full sm:w-[100vw] md:w-[100vw] lg:w-[80vw] lg:h-[80vh] mx-auto
       mt-10 md:mt-20 lg:mt-10 lg:px-40 bg-slate-200 rounded-2xl lg:pt-16
       p-5 sm:p-8 md:p-10 container
     "
