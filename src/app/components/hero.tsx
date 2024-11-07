@@ -6,25 +6,24 @@ import styles from "./background.module.css";
 const Hero = () => {
   return (
     <>
-     <main
-  className="
+    <main
+    className="
     flex flex-col 
-    max-w-full sm:max-w-full md:max-w-7xl lg:max-w-7xl xl:max-w-7xl 2xl:max-w-7xl
-    mx-auto sm:mx-auto md:mx-60 lg:mx-auto xl:mx-auto 
+    max-w-full sm:max-w-7xl md:max-w-7xl lg:max-w-7xl xl:max-w-7xl 2xl:max-w-7xl
+    mx-auto sm:mx-auto  lg:mx-auto xl:mx-auto xl2:mx-auto
     my-auto container
   "
 >
   <div
-    className="flex sm:flex flex-col  lg:flex-row justify-between items-center
-      max-w-full sm:max-w-full md:max-w-full lg:max-w-7xl xl:max-w-7xl
-      w-full sm:w-[100vw] md:w-[100vw] lg:w-[80vw] lg:h-[80vh] mx-auto
+    className="flex lg:flex flex-col  lg:flex-row justify-between items-center
+      w-full sm:w-[100vw] md:w-[100vw] lg:w-[80vw] 
+      mx-auto sm:mx-auto md:mx-60 lg:mx-auto xl:mx-auto xl2:mx-auto
       mt-10 md:mt-20 lg:mt-10 lg:px-40 bg-slate-200 rounded-2xl lg:pt-16
-      p-5 sm:p-8 md:p-10 container
+      p-5 sm:p-10 md:p-10 container
     "
   >
     {/* Your content here */}
   
-
           {/* TEXT-SECTION */}
           <div className="  lg:w-[40vw] lg:h-[100%] lg:p-10
           p-5">
@@ -62,13 +61,15 @@ const Hero = () => {
         </div>
       </main>
       <div>
+
+
       {/* BOTTOM-SECTION */}
       <section>
 
       <div
         className="lg:flex  items-center justify-center
-        max-w-7xl sm:max-w-7xl md:max-w-7xl lg:max-w-7xl xl:max-w-7xl bg-yellow-300 h-[50vh] sm:h-[20vh] md:h-[50vh] lg:h-[20vh]
-        xl:h-[20vh] 
+        max-w-7xl sm:max-w-7xl md:max-w-7xl lg:max-w-7xl xl:max-w-7xl bg-yellow-300 h-[50vh] sm:h-[50vh] md:h-[50vh] lg:h-[20vh]
+        xl:h-[20vh] xl2:h-[20vh]
         mx-auto sm:mx-auto md:mx-60 lg:mx-auto xl:mx-auto
         mt-10 p-10 pl-32 sm:pl-72 md:pl-72 lg:pl-10
         container"
