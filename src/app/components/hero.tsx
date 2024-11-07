@@ -13,7 +13,7 @@ const Hero = () => {
       mx-auto sm:mx-auto md:mx-auto lg:mx-auto xl:mx-auto 
       my-auto container">
   
-      <div className="lg:flex  justify-between items-center
+      <div className="flex sm:flex md:flex lg:flex xl:flex justify-between items-center
       max-w-full sm:max-w-full md:max-w-full lg:max-w-7xl xl:max-w-7xl
       w-[100vw] sm:w-[100vw] lg:w-[80vw] xl:w-[80vw]
       lg:h-[80vh]  mx-auto sm:mx-auto md:mx-60 lg:mx-auto 
