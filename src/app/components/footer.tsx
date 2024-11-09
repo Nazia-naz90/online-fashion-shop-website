@@ -79,10 +79,10 @@ const Footer = () => {
           className="max-w-7xl sm:max-w-7xl
          md:max-w-7xl lg:max-w-7xl xl:max-w-7xl 2xl:max-w-7xl
         mx-auto sm:mx-auto md:mx-60 lg:mx-auto xl:mx-auto container
-        items-center justify-center  
+        items-center justify-center  md:px-80
         height-[50px]  bg-slate-400"
         >
-          <Link href={"/"} className="text-white text-center md:ml-72">
+          <Link href={"/"} className="text-white text-center ">
             back to top
           </Link>
         </div>
@@ -211,7 +211,7 @@ const Footer = () => {
           justify-center sm:justify-center md:justify-center lg:justify-center xl:justify-center
           items-center sm:items-center md:items-center lg:items-center 
           xl:items-center mx-auto bg-black 
-          h-[50px] md:w-[1240px] ">
+          h-[50px] ">
           <div>
             <h6 className="text-gray-400">
               © 2024 Fashion Shope Karachi Pakistan.</h6>
