@@ -4,16 +4,19 @@ import Image from "next/image";
 const Footer = () => {
   return (
     <>
-      <section>
+      <section className="max-w-7xl sm:max-w-7xl
+   md:max-w-7xl lg:max-w-7xl xl:max-w-7xl 2xl:max-w-7xl
+   mx-auto sm:mx-auto md:mx-auto lg:mx-auto xl:mx-auto container">
         <div className=" bg-yellow-400 
-             lg:flex flex-col 
+             flex flex-col
              justify-center sm:justify-center md:justify-center lg:justify-center xl:justify-center
              items-center sm:items-center md:items-center lg:items-center
              xl:items-center
-             max-w-full sm:max-w-7xl md:max-w-7xl lg:max-w-7xl xl:max-w-7xl
-             lg:h-[70vh] md:w-[1240px]
-             p-16  md:px-96 sm:p-16 lg:p-20 md:text-justify
-             mx-auto sm:mx-auto md:mx-auto lg:mx-auto xl:mx-auto
+             max-w-full sm:max-w-full md:max-w-full lg:max-w-full xl:max-w-full
+             xl2:max-w-full 
+             lg:h-[70vh] 
+             p-16  md:px-10 sm:p-16 lg:p-20 md:text-justify
+             mx-auto sm:mx-auto md:mx-60 lg:mx-auto xl:mx-auto
              mt-0 lg:space-x-10 lg:gap-y-10 container">
          
         <div
@@ -73,12 +76,13 @@ const Footer = () => {
         
              {/* footer-panel-1 */}
              <div
-          className="flex justify-center items-center 
-          content-center mx-auto sm:mx-auto md:mx-auto lg:mx-auto xl:mx-auto
-          md:w-[1240px]
-          height-[50px]  bg-slate-400"
+          className="max-w-7xl sm:max-w-7xl
+         md:max-w-7xl lg:max-w-7xl xl:max-w-7xl 2xl:max-w-7xl
+        mx-auto sm:mx-auto md:mx-60 lg:mx-auto xl:mx-auto container
+        items-center justify-center  
+        height-[50px]  bg-slate-400"
         >
-          <Link href={"/"} className="text-white">
+          <Link href={"/"} className="text-white text-center md:ml-72">
             back to top
           </Link>
         </div>
@@ -90,8 +94,11 @@ const Footer = () => {
 
               
         {/* footer-logo-icons*/}
-        <div className="lg:flex md:flex items-center mt-10 lg:gap-x-10 
-        lg:mx-auto">
+        <div className="max-w-7xl sm:max-w-7xl
+       md:max-w-7xl lg:max-w-7xl xl:max-w-7xl 2xl:max-w-7xl
+       mx-auto sm:mx-auto md:mx-auto lg:mx-auto xl:mx-auto container
+       lg:flex md:flex items-center mt-10 lg:gap-x-10 
+        ">
           <div className="flex justify-center items-center 
           py-10 lg:mr-64">
             <div className="lg:flex flex-col lg:flex-grow 
