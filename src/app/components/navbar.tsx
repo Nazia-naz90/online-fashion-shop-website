@@ -15,7 +15,8 @@ export default function Navbar() {
    md:max-w-7xl lg:max-w-7xl xl:max-w-7xl 2xl:max-w-7xl
    mx-auto sm:mx-auto md:mx-auto lg:mx-auto xl:mx-auto fixed container lg:relative">
 
-  <div className="flex items-center justify-between gap-20 h-full px-4 sm:px-6 md:px-8 lg:mx-auto xl:px-4 max-w-7x1 sm:max-w-full md:max-w-7xl lg:max-w-7xl xl:max-w-7xl container">
+  <div className="flex items-center justify-between gap-20 h-full px-4 sm:px-6 md:px-8 lg:mx-auto xl:px-4 max-w-full sm:max-w-full md:max-w-full lg:max-w-full xl:max-w-full
+  xl2:max-w-full container">
         <div className="flex 
         items-center justify-center
         sm:flex-row gap-2  ml-5">

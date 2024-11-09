@@ -9,14 +9,15 @@ const Hero = () => {
     <main
     className="
     flex flex-col 
-    max-w-full sm:max-w-7xl md:max-w-7xl lg:max-w-7xl xl:max-w-7xl 2xl:max-w-7xl
-    mx-auto sm:mx-auto  lg:mx-auto xl:mx-auto xl2:mx-auto
-    my-auto container
+    max-w-7xl sm:max-w-7xl md:max-w-7xl lg:max-w-7xl xl:max-w-7xl 2xl:max-w-7xl mx-auto sm:mx-auto md:mx-auto lg:mx-auto
+    xl:mx-auto xl2:mx-auto
+  
+   
   "
 >
   <div
     className="flex lg:flex flex-col  lg:flex-row justify-between items-center
-      w-full sm:w-[100vw] md:w-[100vw] lg:w-[80vw] 
+      w-full sm:w-full md:w-full lg:w-[80vw] xl:w-[80vw] xl2:w-[80vw]
       mx-auto sm:mx-auto md:mx-60 lg:mx-auto xl:mx-auto xl2:mx-auto
       mt-10 md:mt-20 lg:mt-10 lg:px-40 bg-slate-200 rounded-2xl lg:pt-16
       p-5 sm:p-32 md:p-10 container
@@ -49,13 +50,15 @@ const Hero = () => {
            </Link>
            </div>
            {/* IMAGE-SECTION */}
-          <div>
+          <div  className="w-full sm:w-full md:w-full lg:w-[40vw] xl:w-[40vw] xl2:w-[40vw]
+            sm:h-[65vh] md:h-[65vh] lg:h-[65vh] xl:h-[65vh] xl2:h-[65vh]">
             <Image 
             src={"/images/hero-girl.png"}
             alt="image"
             width={1500}
             height={1500}
-            className="lg:w-[40vw] lg:h-[65vh]">
+            className="w-full sm:w-full md:w-full lg:w-[40vw] xl:w-[40vw] xl2:w-[40vw]
+            sm:h-[65vh] md:h-[65vh] lg:h-[65vh] xl:h-[65vh] xl2:h-[65vh]">
             </Image>
           </div>
         </div>
