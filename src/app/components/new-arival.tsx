@@ -25,7 +25,7 @@ const NewArival = () => {
     xl:items-center 
     justify-center sm:justify-center md:justify-center lg:justify-center
     xl:justify-center 
-     max-w-7xl sm:max-w-7xl md:w-7xl lg:max-w-7xl
+     max-w-7xl 
      mx-auto sm:mx-auto md:mx-60 lg:mx-auto xl:mx-auto
      md:space-x-10
      container

@@ -5,6 +5,7 @@ import NewArival from "./components/new-arival";
 import Paydaynow from "./components/paydaynow";
 import YoungsFavorite from "./components/youngsFavorite";
 import Downloadapp from "./components/downloadapp";
+import JoinShopping from "./components/joinShopping";
 export default function Home() {
   return (
 
@@ -15,6 +16,7 @@ export default function Home() {
   <Paydaynow/>
   <YoungsFavorite/>
   <Downloadapp/>
+  <JoinShopping/>
   {/*File base routing system*/}
 </div>
 

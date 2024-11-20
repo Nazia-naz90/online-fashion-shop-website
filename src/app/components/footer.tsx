@@ -4,100 +4,19 @@ import Image from "next/image";
 const Footer = () => {
   return (
     <>
-      <section className="max-w-7xl sm:max-w-7xl
-   md:max-w-7xl lg:max-w-7xl xl:max-w-7xl 2xl:max-w-7xl
-   mx-auto sm:mx-auto md:mx-auto lg:mx-auto xl:mx-auto container">
-        <div className=" bg-yellow-400 
-             flex flex-col
-             justify-center sm:justify-center md:justify-center lg:justify-center xl:justify-center
-             items-center sm:items-center md:items-center lg:items-center
-             xl:items-center
-             max-w-full sm:max-w-full md:max-w-full lg:max-w-full xl:max-w-full
-             xl2:max-w-full 
-             lg:h-[70vh] 
-             p-16  md:px-10 sm:p-16 lg:p-20 md:text-justify
-             mx-auto sm:mx-auto md:mx-60 lg:mx-auto xl:mx-auto
-             mt-0 lg:space-x-10 lg:gap-y-10 container">
-         
-        <div
-          className="lg:flex flex-col items-center 
-        justify-center m-auto"
-        >
-          <h1
-            className="text-white lg:text-[7vmin]
-           text-[20px] font-bold"
-          >
-            JOIN SHOPPING COMMUNITY TO{" "}
-          </h1>
-          <h1
-            className="text-white lg:text-[7vmin] 
-            text-[20px] font-bold"
-          >
-            GET MONTHLY PROMO
-          </h1>
-          <p
-            className="text-white lg:text-[3vmin] 
-           text-[17px] font-semibold"
-          >
-            Type your email down below and be young wild 
-            generation
-          </p>
-        </div>
-        <div
-          className="lg:flex lg:w-[25%] lg:h-[60%]
-        rounded-md"
-        >
-          <input
-            type="email"
-            name="email"
-            id="email"
-            placeholder="Add your email here"
-            className="lg:w-[600px] lg:h-[35px] p-2 
-            rounded-md"
-          />
-          <a href={"mailto:example@email.com"}>
-          <button
-            className="lg:flex text-center items-center
-           bg-black text-white lg:text-[18px] lg:font-bold 
-           lg:w-[100%] w-[100px] lg:h-[36px] h-[45px] lg:p-4 
-           rounded-md"
-          >
-            send
-          </button>
-          </a>
-          
-        </div>
-
-        </div>
-       
-      </section>
-
       <footer>
         
-             {/* footer-panel-1 */}
-             <div
-          className="max-w-7xl sm:max-w-7xl
-         md:max-w-7xl lg:max-w-7xl xl:max-w-7xl 2xl:max-w-7xl
-        mx-auto sm:mx-auto md:mx-60 lg:mx-auto xl:mx-auto container
-        items-center justify-center  md:px-80
-        height-[50px]  bg-slate-400"
-        >
-          <Link href={"/"} className="text-white text-center ">
-            back to top
-          </Link>
-        </div>
 
-      <div  className="lg:flex md:flex justify-between 
-        max-w-7xl sm:max-w-7xl md:max-w-7xl lg:max-w-7xl xl:max-w-7xl
-        mx-auto sm:mx-7xl md:mx-7xl lg:mx-7xl xl:mx-7xl md:w-[1240px]
+
+      <div  className=" lg:flex justify-between 
+        max-w-7xl mx-auto sm:mx-auto md:mx-60 lg:mx-auto xl:mx-auto 
         mt-0 bg-black p-10 md:pl-24 container">
 
               
         {/* footer-logo-icons*/}
-        <div className="max-w-7xl sm:max-w-7xl
-       md:max-w-7xl lg:max-w-7xl xl:max-w-7xl 2xl:max-w-7xl
-       mx-auto sm:mx-auto md:mx-auto lg:mx-auto xl:mx-auto container
-       lg:flex md:flex items-center mt-10 lg:gap-x-10 
+        <div className="max-w-7xl 
+         mx-auto  container
+         lg:flex  items-center mt-10 lg:gap-x-10 
         ">
           <div className="flex justify-center items-center 
           py-10 lg:mr-64">
@@ -162,10 +81,10 @@ const Footer = () => {
           </div>
           {/* footer-pannel-2 */}
           {/* Company */}
-          <div className="lg:flex md:flex
-          flex-grow lg:justify-between md:justify-between
-          space-x-20 sm:space-x-10 md:space-x-24 lg:space-x-20 xl:space-x-20 mx-aut0 sm:mx-auto md:mx-32 lg:mx-auto xl:mx-auto">
-          <div className="flex flex-col items-center 
+          <div className="lg:flex
+          flex-grow  lg:justify-between md:justify-between
+          space-x-20 sm:space-x-10 md:space-x-24 lg:space-x-20 xl:space-x-20 mx-aut0 ">
+          <div className="flex flex-col md:items-center md:justify-center
           height-[300px] text-white mt-10 ">
             <ul className="flex flex-col text-gray-400 
             gap-3">
@@ -191,7 +110,7 @@ const Footer = () => {
           {/* =====Legal====== */}
           <div
             className="flex flex-col  height-[300px]
-             text-white mb-10 md:items-center md:justify-center">
+             text-white mt-10 md:mt-10 lg:mb-20 md:items-center md:justify-center">
             <ul className="flex flex-col text-gray-400 gap-3">
               <h6 className="text-white">Legal</h6>
               <a>Terms & conditions</a>
@@ -207,11 +126,11 @@ const Footer = () => {
 
       </div>
       <section
-          className="flex max-w-7xl sm:max-w-7xl md:max-w-7xl lg:max-w-7xl
-          justify-center sm:justify-center md:justify-center lg:justify-center xl:justify-center
-          items-center sm:items-center md:items-center lg:items-center 
-          xl:items-center mx-auto bg-black 
-          h-[50px] ">
+          className="flex max-w-7xl 
+          justify-center 
+          items-center mx-auto sm:mx-auto md:mx-60 lg:mx-auto xl:mx-auto
+          bg-black 
+          h-[10vh] container">
           <div>
             <h6 className="text-gray-400">
               © 2024 Fashion Shope Karachi Pakistan.</h6>

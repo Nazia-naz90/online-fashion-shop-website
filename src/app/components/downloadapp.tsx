@@ -7,7 +7,7 @@ const Downloadapp = () => {
 
    <div className="
     flex lg:flex md:flex 
-    max-w-full sm:max-w-full md:max-w-full lg:max-w-7xl xl:max-w-7xl 
+    max-w-7xl 
     mx-auto sm:mx-auto md:mx-60 lg:mx-auto xl:mx-auto
     justify-center sm:justify-center md:justify-center lg:justify-center xl:justify-center
     items-center sm:items-center md:items-center lg:items-center xl:items-center
@@ -26,9 +26,9 @@ const Downloadapp = () => {
                 font-bold font-sans'>DOWNLOAD APP &</h1>
                 <h1 className='text-[6vmin]
                 font-bold font-sans'>GET THE VOUCHER!</h1>
-                <p className='text-17px mt-10
+                <p className='text-[3vmin] mt-10
                 font-sans'>Get 30% off for first transaction using</p>
-                <p className='text-17px 
+                <p className='text-[3vmin] 
                 font-sans'>Rondovision mobile app for now.</p>
                 <div className='flex gap-2 my-10'>
                     <button>

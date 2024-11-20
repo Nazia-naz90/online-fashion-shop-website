@@ -9,15 +9,14 @@ const Hero = () => {
     <main
     className="
     flex flex-col 
-    max-w-7xl sm:max-w-7xl md:max-w-7xl lg:max-w-7xl xl:max-w-7xl 2xl:max-w-7xl mx-auto sm:mx-auto md:mx-auto lg:mx-auto
-    xl:mx-auto xl2:mx-auto
+    max-w-7xl mx-auto 
   
-   
+
   "
 >
   <div
     className="flex lg:flex flex-col  lg:flex-row justify-between items-center
-      w-full sm:w-full md:w-full lg:w-[80vw] xl:w-[80vw] xl2:w-[80vw]
+      w-[80vw] sm:w-[80vw] md:w-[80vw] lg:w-[80vw] xl:w-[80vw] xl2:w-[80vw]
       mx-auto sm:mx-auto md:mx-60 lg:mx-auto xl:mx-auto xl2:mx-auto
       mt-10 md:mt-20 lg:mt-10 lg:px-40 bg-slate-200 rounded-2xl lg:pt-16
       p-5 sm:p-32 md:p-10 container
@@ -71,13 +70,13 @@ const Hero = () => {
 
       <div
         className="lg:flex  items-center justify-center
-        max-w-7xl sm:max-w-7xl md:max-w-7xl lg:max-w-7xl xl:max-w-7xl bg-yellow-300 h-[50vh] sm:h-[50vh] md:h-[50vh] lg:h-[20vh]
+        max-w-7xl  bg-yellow-300 h-[50vh] sm:h-[50vh] md:h-[50vh] lg:h-[20vh]
         xl:h-[20vh] xl2:h-[20vh]
         mx-auto sm:mx-auto md:mx-60 lg:mx-auto xl:mx-auto
         mt-10 p-10 pl-32 sm:pl-72 md:pl-72 lg:pl-10
         container"
         >
-        <div className="lg:flex  lg:justify-between
+        <div className="lg:flex  lg:justify-around lg:flex-nowrap md:flex-wrap
         items-center justify-center max-w-full sm:max-w-full md:max-w-full lg:max-w-full xl:max-w-full
         mx-auto sm:mx-auto md:mx-auto lg:mx-auto xl:mx-auto 
         lg:p-16  

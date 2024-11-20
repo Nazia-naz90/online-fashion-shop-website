@@ -10,13 +10,12 @@ export default function Navbar() {
   const  {toggle, handleMenuClick } = useToggle();
   
   return (
-    <header className="h-[75px] sm:h-[64px] md:h-[64px] lg:h-[74px]  bg-white 
+    <header className="h-[10vh] bg-white 
    drop-shadow-[0_0px_3px_rgba(117,195,16,0.5)] max-w-7xl sm:max-w-7xl
    md:max-w-7xl lg:max-w-7xl xl:max-w-7xl 2xl:max-w-7xl
-   mx-auto sm:mx-auto md:mx-auto lg:mx-auto xl:mx-auto fixed container lg:relative">
+   mx-auto  fixed container lg:relative">
 
-  <div className="flex items-center justify-between gap-20 h-full px-4 sm:px-6 md:px-8 lg:mx-auto xl:px-4 max-w-full sm:max-w-full md:max-w-full lg:max-w-full xl:max-w-full
-  xl2:max-w-full container">
+  <div className="flex items-center justify-between gap-20 h-full px-4 sm:px-6 md:px-8 lg:mx-auto xl:px-4 container">
         <div className="flex 
         items-center justify-center
         sm:flex-row gap-2  ml-5">
@@ -80,10 +79,10 @@ export default function Navbar() {
           </div>
           {/* media query on navbar */}
           {toggle && (
-            <div className="absolute right-0 w-48 h-[65vh] bg-slate-400 mt-5 p-4 
+            <div className="absolute right-0 w-[12rem] h-[65vh] bg-slate-400 mt-5 p-4 
             rounded-md ">
             <div className="flex flex-col justify-center items-center">
-            <nav className="h-[44.54px]">
+            <nav className="h-[5.5675vh]">
                   <ul
                     className=" flex flex-col h-full w-full items-center 
          justify-between space-y-4 text-white 
