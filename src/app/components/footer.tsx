@@ -9,7 +9,7 @@ const Footer = () => {
 
 
       <div  className=" lg:flex justify-between 
-        max-w-7xl mx-auto sm:mx-auto md:mx-60 lg:mx-auto xl:mx-auto 
+        max-w-7xl mx-auto  
         mt-0 bg-black p-10 md:pl-24 container">
 
               
@@ -125,18 +125,6 @@ const Footer = () => {
 
 
       </div>
-      <section
-          className="flex max-w-7xl 
-          justify-center 
-          items-center mx-auto sm:mx-auto md:mx-60 lg:mx-auto xl:mx-auto
-          bg-black 
-          h-[10vh] container">
-          <div>
-            <h6 className="text-gray-400">
-              © 2024 Fashion Shope Karachi Pakistan.</h6>
-          </div>
-        </section>
-
       </footer>
     </>
   );

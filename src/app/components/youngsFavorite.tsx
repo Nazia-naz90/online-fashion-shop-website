@@ -6,8 +6,7 @@ const YoungsFavorite = () => {
     <>
     <div>
 
-    <div className="flex  mt-10 p-10 items-center sm:items-center md:items-center lg:items-center container mx-auto sm:mx-60 md:mx-80
-      lg:mx-auto xl:mx-auto">
+    <div className="flex  mt-10 p-10 items-center sm:items-center md:items-center lg:items-center mx-auto container ">
         <Image
           src={"/images/youngfavorite.jpg"}
           alt="heading"
@@ -19,13 +18,11 @@ const YoungsFavorite = () => {
 
       >
        <div className="flex md:flex 
-       items-center sm:items-center md:items-center lg:items-center
-       xl:items-center  justify-center sm:justify-center md:justify-center
-       lg:justify-center xl:justify-center
+       items-center justify-center
        lg:flex max-w-7xl 
-       mx-auto sm:mx-auto md:mx-auto lg:mx-auto xl:mx-auto
+       mx-auto 
        space-x-10  md:space-x-20 lg:space-x-10 xl:space-x-10
-       md:ml-64 container
+       container
        ">
 
        <div className="flex flex-col items-center justify-center ">

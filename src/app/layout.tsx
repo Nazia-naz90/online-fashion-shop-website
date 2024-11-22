@@ -5,6 +5,7 @@ import Footer from "./components/footer";
 
 
 import { title } from "process";
+import FooterLast from "./components/footerLast";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
@@ -25,6 +26,7 @@ export default function RootLayout({
         {children}
         
         <Footer/>
+        <FooterLast/>
         </body>
     </html>
   );

@@ -6,7 +6,8 @@ const Paydaynow = () => {
   return (
     <>
     <div>
-     <div className="lg:flex md:flex max-w-7xl  mx-auto sm:mx-auto md:mx-60 lg:mx-auto xl:mx-auto 
+     <div className="lg:flex md:flex max-w-7xl  mx-auto
+     sm:mx-auto md:mx-auto lg:mx-auto xl:mx-auto  
      lg:p-10 p-5 
      items-center justify-center container">
         <div>

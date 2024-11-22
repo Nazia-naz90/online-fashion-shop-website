@@ -13,7 +13,7 @@ const JoinShopping = () => {
              max-w-7xl
              lg:h-[70vh] 
              p-16  md:px-10 sm:p-16 lg:p-20 md:text-justify
-             mx-auto sm:mx-auto md:mx-60 lg:mx-auto xl:mx-auto
+             mx-auto
              mt-0 lg:space-x-10 lg:gap-y-10 container">
          
         <div
@@ -71,7 +71,7 @@ const JoinShopping = () => {
                    {/* footer-panel-1 */}
                    <div
           className="max-w-7xl 
-        mx-auto sm:mx-auto md:mx-60 lg:mx-auto xl:mx-auto xl2:mx-auto
+        mx-auto 
         items-center  justify-center  text-center
         height-[50px]  bg-slate-400 container"
         >

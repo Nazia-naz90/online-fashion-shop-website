@@ -10,14 +10,15 @@ const Hero = () => {
     className="
     flex flex-col 
     max-w-7xl mx-auto 
+    sm:mx-auto md:mx-auto lg:mx-auto xl:mx-auto 
   
 
   "
 >
   <div
     className="flex lg:flex flex-col  lg:flex-row justify-between items-center
-      w-[80vw] sm:w-[80vw] md:w-[80vw] lg:w-[80vw] xl:w-[80vw] xl2:w-[80vw]
-      mx-auto sm:mx-auto md:mx-60 lg:mx-auto xl:mx-auto xl2:mx-auto
+      w-[80vw] 
+      mx-auto sm:mx-auto md:mx-auto lg:mx-auto xl:mx-auto 
       mt-10 md:mt-20 lg:mt-10 lg:px-40 bg-slate-200 rounded-2xl lg:pt-16
       p-5 sm:p-32 md:p-10 container
     "

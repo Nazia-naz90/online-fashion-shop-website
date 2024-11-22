@@ -8,7 +8,7 @@ const Downloadapp = () => {
    <div className="
     flex lg:flex md:flex 
     max-w-7xl 
-    mx-auto sm:mx-auto md:mx-60 lg:mx-auto xl:mx-auto
+    mx-auto 
     justify-center sm:justify-center md:justify-center lg:justify-center xl:justify-center
     items-center sm:items-center md:items-center lg:items-center xl:items-center
     lg:gap-x-40 md:gap-x-20

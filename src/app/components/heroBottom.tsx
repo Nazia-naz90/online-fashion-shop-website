@@ -11,7 +11,7 @@ const HeroBottom = () => {
   className="lg:flex  items-center justify-around
   max-w-7xl  bg-yellow-300 h-[60vh] sm:h-[60vh] md:h-[60vh] lg:h-[20vh]
   xl:h-[20vh] xl2:h-[20vh]
-  mx-auto sm:mx-auto md:mx-60 lg:mx-auto xl:mx-auto
+  mx-auto sm:mx-auto md:mx-auto lg:mx-auto xl:mx-auto 
   mt-10 p-10  pl-32 sm:pl-72 md:pl-72 lg:pl-10
   container"
   >
